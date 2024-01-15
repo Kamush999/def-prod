@@ -1,0 +1,10 @@
+.SignUpNewUserForm {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    max-width: 85vw;
+}
+
+input::placeholder {
+    width: fit-content;
+}

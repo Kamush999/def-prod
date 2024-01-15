@@ -1,0 +1,38 @@
+.NavbarRedesigned {
+  padding: 8px;
+  position: sticky;
+}
+
+.actions {
+  margin-left: auto;
+}
+
+.mainLink {
+  margin-right: 15px;
+}
+
+.textLink {
+  width: var(--sidebar-width);
+  margin-left: 15px;
+}
+
+.mobile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang {
+  display: flex;
+  font-weight: bold;
+  color: var(--accent-redesigned);
+  background: var(--light-bg-redesigned);
+  border-radius: 12px;
+  min-width: 30px;
+  min-height: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+}

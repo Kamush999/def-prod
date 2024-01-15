@@ -1,0 +1,79 @@
+.SidebarRedesigned {
+  position: relative;
+  height: 100%;
+  width: 220px;
+  border-radius: 12px;
+  background: var(--light-bg-redesigned);
+  transition: all 0.2s;
+}
+
+.switchers {
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 16px;
+  transition: all 0.2s;
+}
+
+.collapseBtn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: rotate(90deg);
+  transition: all 0.2s;
+}
+
+.items {
+  margin-top: 40px;
+  transition: all 0.2s;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.link {
+  margin-left: 10px;
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+.collapsed {
+  width: 50px;
+  transition: all 0.2s;
+
+  .switchers {
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.2s;
+  }
+
+  .items {
+    display: none;
+    transition: all 0.2s;
+  }
+
+  .lang {
+    margin-left: 0;
+    transition: all 0.2s;
+  }
+
+  .link {
+    display: none;
+    transition: 0.2s all;
+  }
+
+  .collapseBtn {
+    transform: rotate(-90deg);
+    transition: all 0.2s;
+  }
+}
+
+.appLogo {
+  padding-top: 20px;
+  transition: all 0.2s;
+}

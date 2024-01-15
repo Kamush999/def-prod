@@ -1,0 +1,43 @@
+.BurgerMenu {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    transform: translate(-100%);
+    transition: all 0.2s ease-in-out;
+}
+
+.menuList {
+    width: 80vw;
+    height: 100vh;
+    padding: 10px;
+    align-self: start;
+    background: var(--light-bg-redesigned);
+    transition: all 0.2s;
+}
+
+.btn {
+    align-self: start;
+    transition: all 0.2s;
+}
+
+.collapsed {
+    transform: translate(0);
+    transition: all 0.2s ease-in-out;
+}
+
+.logoWrapper {
+    padding: 4px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 0 3px;
+    transition: all 0.2s;
+}
+
+.logo {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    transition: all 0.2s;
+}

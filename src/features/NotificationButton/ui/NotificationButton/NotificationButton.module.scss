@@ -1,0 +1,14 @@
+.NotificationButton {
+    box-sizing: border-box;
+}
+
+.notifications {
+    min-height: 150px;
+    max-height: 350px;
+    width: 500px;
+    overflow-y: auto;
+}
+
+.mobile {
+    align-items: flex-end;
+}

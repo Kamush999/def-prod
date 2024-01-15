@@ -1,0 +1,37 @@
+.item {
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 16px;
+    transition: all 0s;
+}
+
+.link {
+    margin-left: 10px;
+}
+
+.icon {
+    &:hover {
+        color: var(--accent-redesigned);
+        transition: all 0.2s;
+    }
+}
+
+.collapsed {
+    margin-top: 10px;
+    padding: 0;
+    justify-content: center;
+    transition: all 0s;
+    .link {
+        display: none;
+        transition: all 0.2s;
+    }
+}
+
+.active {
+    background: linear-gradient(90deg, var(--dark-bg-redesigned) 30%, var(--bg-redesigned) 70%);
+    position: relative;
+    border-left: 4px solid var(--accent-redesigned);
+}

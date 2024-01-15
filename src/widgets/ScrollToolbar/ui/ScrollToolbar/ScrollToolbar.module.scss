@@ -1,0 +1,11 @@
+.ScrollToolbar {
+    height: 100%;
+}
+
+.btnColor {
+    opacity: 0.6;
+
+    &:hover {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,22 @@
+.ArticlesFilters {
+    width: 284px;
+}
+
+.getVStack {
+    gap: 8px;
+    justify-self: left;
+}
+
+.cardLink {
+    justify-content: center;
+}
+
+.cardLink > :first-child {
+    padding: 20px;
+    font-size: 24px;
+}
+
+.withAuth {
+    position: relative;
+    top: 50px;
+}

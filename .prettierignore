@@ -1,0 +1,9 @@
+# Ignore artifacts:
+/.loki/
+/build/
+/cypress/
+/node_modules/
+/docs/
+*.css
+*.html
+*.scss
